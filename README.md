@@ -71,7 +71,7 @@ pip install -r requirements.txt
 
 代码段
 OPENAI_API_KEY=您的真实_sk_openai_api_key
-OPENAI_BASE_URL=https://apihub.agnes-ai.com/v1
+OPENAI_BASE_URL=https://apihub.agnes-ai.com/v1（本demo默认使用agnes大模型）
 AI_MODEL=Agnes-2.0-Flash
 4. 启动系统
 在终端中运行以下命令，系统会自动激活并在您的浏览器中打开智能看板：
