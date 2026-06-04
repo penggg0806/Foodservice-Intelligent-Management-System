@@ -69,9 +69,9 @@ pip install -r requirements.txt
 3. 配置本地环境变量
 在项目根目录下创建一个名为 .env 的文件，并填入您的 AI 接口密钥、接口地址及您锁定的模型型号：
 
-代码段
+代码段（本demo默认使用agnes大模型）
 OPENAI_API_KEY=您的真实_sk_openai_api_key
-OPENAI_BASE_URL=https://apihub.agnes-ai.com/v1（本demo默认使用agnes大模型）
+OPENAI_BASE_URL=https://apihub.agnes-ai.com/v1
 AI_MODEL=Agnes-2.0-Flash
 4. 启动系统
 在终端中运行以下命令，系统会自动激活并在您的浏览器中打开智能看板：
